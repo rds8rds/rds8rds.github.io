@@ -20,6 +20,8 @@ gem "github-pages", group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0', :platforms => [:mswin, :mingw, :x64_mingw]
 gem 'tzinfo'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'jekyll-livereload'
+gem 'public_suffix', '5.1.1'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
